@@ -1,0 +1,15 @@
+.container{
+    min-width: 980px;
+}
+.header{
+    text-align: center;
+    margin:0 auto;
+    height: 80px;
+    line-height: 80px;
+}
+.header > button{
+    background: #3385ff;
+    width: 100px;
+    height: 30px;
+    clear: #fff;
+}
