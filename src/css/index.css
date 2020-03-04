@@ -1,15 +1,65 @@
 .container{
     min-width: 980px;
+    width: 100%;
 }
 .header{
+    min-width: 980px;
     text-align: center;
     margin:0 auto;
     height: 80px;
     line-height: 80px;
+    background-color: #d8f0fb;
 }
 .header > button{
     background: #3385ff;
     width: 100px;
+    height: 34px;
+    color: #fff;
+}
+.header > input{
+    width: 400px;
     height: 30px;
-    clear: #fff;
+
+}
+.aside{
+    display: inline-block;
+    width: 15%;
+    height: 600px;
+    background-color: #d8f0fb;
+    vertical-align: bottom;
+}
+.aside > ul > li{
+    margin: 0px auto;
+    text-align: center;
+    line-height: 40px;
+    height: 40px;
+    font-size: 15px;
+    background-color: #3385ff;;
+}
+.aside > ul > li > a{
+    color: #fff;
+    font-size: 15px;
+}
+.content{
+    width: 74%;
+    display: inline-block;
+    margin-right: 0px;
+    vertical-align: top;
+}
+.date{
+    width: 280px;
+    height: 280px;
+    background-color: #F3F7F9 ;
+}
+.years_month{
+    display: block;
+}
+.years_month > div{
+    display: inline-block;
+}
+.week{
+    display: block;
+}
+.week > div{
+    display: inline-block;
 }
