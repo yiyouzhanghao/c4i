@@ -29,7 +29,7 @@
     vertical-align: bottom;
 }
 .aside > ul > li{
-    margin: 0px auto;
+    margin: 0px auto 5px;
     text-align: center;
     line-height: 40px;
     height: 40px;
@@ -50,16 +50,4 @@
     width: 280px;
     height: 280px;
     background-color: #F3F7F9 ;
-}
-.years_month{
-    display: block;
-}
-.years_month > div{
-    display: inline-block;
-}
-.week{
-    display: block;
-}
-.week > div{
-    display: inline-block;
 }
