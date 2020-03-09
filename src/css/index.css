@@ -46,8 +46,7 @@
     vertical-align: top;
 }
 .easilysearch{
-    width: 30%;
-    background-color: #F3F7F9 ;
+    width: 100%;
 }
 .easilysearch > li > input{
     margin: 0px auto 2px;
