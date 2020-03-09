@@ -8,6 +8,7 @@
     margin:0 auto;
     height: 80px;
     line-height: 80px;
+    background-color: #40da89;
 }
 .header > button{
     background: #3385ff;
@@ -24,6 +25,7 @@
     display: inline-block;
     width: 15%;
     vertical-align: top;
+    background-color: #40da89;
 }
 .aside > ul > li{
     margin: 0px auto 5px;
@@ -48,7 +50,7 @@
     background-color: #F3F7F9 ;
 }
 .easilysearch > li > input{
-    margin: 2px auto;
+    margin: 0px auto 2px;
     display: block;
     width: 99%;
     height: 25px;
@@ -64,7 +66,33 @@
 .lastsendlist{
     width: 100%;
     text-align: center;
+    background-color: #fff;
+    margin-top: 5px;
 }
 .lastsendlist > tbody > tr{
     height: 30px;
+}
+.lastsendlist > tbody > tr > th{
+    background-color: #26AF61;
+    color: #fff;
+}
+.lastsendlist > tbody > tr > td{
+    background-color: #ffffff;
+    color: #101010;
+}
+.paging{
+    width: 100%;
+}
+.paging > ul{
+    display: block;
+    margin: 0px auto;
+}
+.paging > ul > li{
+    display: inline-block;
+    width: 60px;
+    height: 25px;
+    background-color: #26AF61;
+    color: #fff; 
+    text-align: center;
+    line-height: 25px; 
 }
