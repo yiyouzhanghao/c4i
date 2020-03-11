@@ -34,5 +34,10 @@ module.exports={
         contentBase: "./dist",
         index:"index.html",
         open:true,
+        // proxy:{
+        //     "/":{
+        //         target:""
+        //     }
+        // }
     }
 }
