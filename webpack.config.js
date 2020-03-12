@@ -34,10 +34,8 @@ module.exports={
         contentBase: "./dist",
         index:"index.html",
         open:true,
-        // proxy:{
-        //     "/":{
-        //         target:""
-        //     }
-        // }
+        proxy:{
+            "/snserachlist": "http://localhost:3000"
+        }
     }
 }
