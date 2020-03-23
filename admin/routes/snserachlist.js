@@ -1,5 +1,5 @@
-const routes = require("koa-router")()
-routes.get("/snserachlist/:sn",async (ctx)=>{
-    console.log(ctx)
+const router = require("koa-router")()
+router.get("snserachlist",(ctx)=>{
+    console.log(ctx.query)
 })
-module.exports = routes
+module.exports = router.routes()
