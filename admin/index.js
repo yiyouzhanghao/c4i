@@ -2,7 +2,7 @@ const Koa = require("koa")
 const router = require("koa-router")()
 const snserachlist = require("./routes/snserachlist.js")
 const app = new Koa()
-router.use('/',snserachlist)
+router.use('/snserachlist',snserachlist)
 // app.use(async (ctx)=>{
 //     console.log(ctx)
 // })

@@ -1,5 +1,7 @@
+const sqlConnection = require("../sql/index.js")
 const router = require("koa-router")()
-router.get("snserachlist",(ctx)=>{
-    console.log(ctx.query)
+router.get("/",(ctx)=>{
+    let a = sqlConnection(Number(ctx.query.sn))
+    console.log(a)
 })
 module.exports = router.routes()
