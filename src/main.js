@@ -10,7 +10,11 @@ function snsearchclick(){
               sn:sninputvalue 
             }
           }
-        )
+        ).then((response)=>{
+            console.log(response)
+        }).catch((err)=>{
+          console.log(response)
+        })
     }
     else{
         sninput.setAttribute("placeholder","输入不能为空")
