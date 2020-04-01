@@ -24,10 +24,14 @@
 #render > dl {
     display: block;
     width: 80%;
-    margin: 0px auto;
+    margin: 20px auto ;
 }
 #render > dl > div > dt,dd{
     display: inline-block;
+    border: solid 1px #e6e6e6;
+    background-color: #fff;
+    height: 30px;
+    line-height: 30px;
 }
 #render > dl > div > dt{
     width: 30%;

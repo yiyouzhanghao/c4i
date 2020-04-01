@@ -10,71 +10,71 @@
     </div>
     <div>
         <dt>铁路局</dt>
-        <dd>{{$value.send_cargo_office}}</dd>
+        <dd>{{$value.send_cargo_office?$value.send_cargo_office:"null"}}</dd>
     </div>
     <div>
         <dt>车务段</dt>
-        <dd>{{$value.end_cargo_length}}</dd>
+        <dd>{{$value.end_cargo_length?$value.end_cargo_length:"null"}}</dd>
     </div>
     <div>
         <dt>车站</dt>
-        <dd>{{$value.send_cargo_station}}</dd>
+        <dd>{{$value.send_cargo_station?$value.send_cargo_station:"null"}}</dd>
     </div>
     <div>
         <dt>发货时间</dt>
-        <dd>{{$value.send_cargo_time}}</dd>
+        <dd>{{$value.send_cargo_time?$value.send_cargo_time:"null"}}</dd>
     </div>
     <div>
         <dt>供应商</dt>
-        <dd>{{$value.supplier}}</dd>
+        <dd>{{$value.supplier?$value.supplier:"null"}}</dd>
     </div>
     <div>
         <dt>设备组成部件</dt>
-        <dd>{{$value.device_parts}}</dd>
+        <dd>{{$value.device_parts?$value.device_parts:"null"}}</dd>
     </div>
     <div>
         <dt>设备固件版本</dt>
-        <dd>{{$value.firmware_ver}}</dd>
+        <dd>{{$value.firmware_ver?$value.firmware_ver:"null"}}</dd>
     </div>
     <div>
         <dt>设备状态</dt>
-        <dd>{{$value.status}}</dd>
+        <dd>{{$value.status?$value.status:"null"}}</dd>
     </div>
     <div>
         <dt>检验人员</dt>
-        <dd>{{$value.check_people}}</dd>
+        <dd>{{$value.check_people?$value.check_people:"null"}}</dd>
     </div>
     <div>
         <dt>设备返回地址</dt>
-        <dd>{{$value.back_address}}</dd>
+        <dd>{{$value.back_address?$value.back_address:"null"}}</dd>
     </div>
     <div>
         <dt>设备返回时间</dt>
-        <dd>{{$value.back_time}}</dd>
+        <dd>{{$value.back_time?$value.back_time:"null"}}</dd>
     </div>
     <div>
         <dt>客户反映问题</dt>
-        <dd>{{$value.customer_problem}}</dd>
+        <dd>{{$value.customer_problem?$value.customer_problem:"null"}}</dd>
     </div>
     <div>
         <dt>现场测试真实原因</dt>
-        <dd>{{$value.real_problem}}</dd>
+        <dd>{{$value.real_problem?$value.real_problem:"null"}}</dd>
     </div>
     <div>
         <dt>维修完成时间</dt>
-        <dd>{{$value.finish_time}}</dd>
+        <dd>{{$value.finish_time?$value.finish_time:"null"}}</dd>
     </div>
     <div>
         <dt>维修人员</dt>
-        <dd>{{$value.service_man}}</dd>
+        <dd>{{$value.service_man?$value.service_man:"null"}}</dd>
     </div>
     <div>
         <dt>备用设备序列号</dt>
-        <dd>{{$value.backup_sn}}</dd>
+        <dd>{{$value.backup_sn?$value.backup_sn:"null"}}</dd>
     </div>
     <div>
         <dt>备注描述</dt>
-        <dd>{{$value.comment}}</dd>
+        <dd>{{$value.comment?$value.comment:"null"}}</dd>
     </div>
 </dl>
 {{/each}}
