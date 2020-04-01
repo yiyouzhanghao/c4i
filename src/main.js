@@ -12,7 +12,9 @@ function snsearchclick(){
             }
           }
         ).then((response)=>{
-            console.log(response.data)
+            let data = response.data
+            document.getElementById("render").innerHTML = template({data:data})
+            console.log(data)
         }).catch((err)=>{
           console.log(err)
         })

@@ -1,4 +1,4 @@
-.container{
+.container,#render{
     min-width: 980px;
     width: 100%;
 }
@@ -20,4 +20,18 @@
     width: 400px;
     height: 30px;
 
+}
+#render > dl {
+    display: block;
+    width: 80%;
+    margin: 0px auto;
+}
+#render > dl > div > dt,dd{
+    display: inline-block;
+}
+#render > dl > div > dt{
+    width: 30%;
+}
+#render > dl > div > dd{
+    width: 69%;
 }

@@ -11,7 +11,8 @@ router.get("/",async (ctx)=>{
                     if(err) throw err;
                     resolve(result)
                 })
-            }) 
+                connect.release()
+            })
         })
     }
     const body = await querySn(sql)
