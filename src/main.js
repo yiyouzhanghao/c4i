@@ -14,7 +14,6 @@ function snsearchclick(){
         ).then((response)=>{
             let data = response.data
             document.getElementById("render").innerHTML = template({data:data})
-            console.log(data)
         }).catch((err)=>{
           console.log(err)
         })
@@ -25,3 +24,8 @@ function snsearchclick(){
 }
 let snsearch = document.getElementById("snsearch")
 snsearch.addEventListener("click",snsearchclick)
+function changebtnclick(){
+  console.log(222)
+}
+let changebtn = document.getElementById("change")
+changebtn.addEventListener("click",changebtnclick)

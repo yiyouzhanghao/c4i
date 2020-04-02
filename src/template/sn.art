@@ -1,5 +1,5 @@
 {{each data}}
-<dl>
+<dl id={{$value.id}}>
     <div>
         <dt>数据库ID</dt>
         <dd>{{$value.id}}</dd>
@@ -75,6 +75,10 @@
     <div>
         <dt>备注描述</dt>
         <dd>{{$value.comment?$value.comment:"null"}}</dd>
+    </div>
+    <div>
+        <button  class={{$value.id}} id="change">点击修改</button> 
+        <button  class={{$value.id}} id="confirmchange">确认修改</button>
     </div>
 </dl>
 {{/each}}

@@ -39,3 +39,10 @@
 #render > dl > div > dd{
     width: 69%;
 }
+#change,#confirmchange{
+    width: 80px;
+    height: 30px;
+    margin-top: 7px;
+    background: #229ffd;
+    color: #fff;
+}
