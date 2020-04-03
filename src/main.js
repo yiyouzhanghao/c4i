@@ -24,8 +24,14 @@ function snsearchclick(){
 }
 let snsearch = document.getElementById("snsearch")
 snsearch.addEventListener("click",snsearchclick)
-function changebtnclick(){
-  console.log(222)
+function changebtnclick(e){
+  if(e.target.id=="change"){
+    let ele = document.getElementById("render").children[0].children
+    for(let i = 0;i<ele.length-1;i++){
+      console.log(ele[i].lastElementChild)
+    }
+  }
 }
-let changebtn = document.getElementById("change")
-changebtn.addEventListener("click",changebtnclick)
+let render = document.getElementById("render")
+render.addEventListener("click",changebtnclick)
+
