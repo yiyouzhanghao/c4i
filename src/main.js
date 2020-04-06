@@ -28,7 +28,7 @@ function changebtnclick(e){
   if(e.target.id=="change"){
     let ele = document.getElementById("render").children[0].children
     for(let i = 0;i<ele.length-1;i++){
-      console.log(ele[i].lastElementChild)
+      console.log(ele[i].childNodes[3].setAttribute("contenteditable","true"))
     }
   }
 }
