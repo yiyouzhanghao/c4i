@@ -25,18 +25,9 @@ function snsearchclick(){
 let snsearch = document.getElementById("snsearch")
 snsearch.addEventListener("click",snsearchclick)
 function changebtnclick(e){
+  let ele = document.getElementById(`${e.target.className}`)
   if(e.target.id=="change"){
-    // let ele = document.getElementById("render").children[0].children
-    // for(let i = 0;i<ele.length-1;i++){
-    //   ele[i].childNodes[3].setAttribute("contenteditable","true")
-    // }
-    console.log(e.target)
-    console.log(e.target.className)
-  }
-  if(e.target.id=="confirmchange"){
-    // let confirmele = document.getElementById("render").children
-    // console.log(e.target)
-    // console.log(confirmele)
+    console.log(ele)
   }
 }
 let render = document.getElementById("render")
