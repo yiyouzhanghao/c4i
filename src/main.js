@@ -27,7 +27,13 @@ snsearch.addEventListener("click",snsearchclick)
 function changebtnclick(e){
   let ele = document.getElementById(`${e.target.className}`)
   if(e.target.id=="change"){
-    console.log(ele)
+    for(let i = 0;i < ele.children.length-1;i++){
+      let setele = ele.children[i].lastElementChild
+      setele.setAttribute("contenteditable","true")
+    }
+  }
+  if(e.target.id=="confirmchange"){
+    
   }
 }
 let render = document.getElementById("render")
